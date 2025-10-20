@@ -75,7 +75,7 @@ import numpy as np
 import streamlit as st
 import pandas as pd
 
-df=pd.read_excel('katalog_toto.xlsx')
+df=pd.read_csv('katalog_toto.csv')
 
 # Example Data (remove or replace with your actual df)
 # df = pd.read_excel("katalog_toto.xlsx")
