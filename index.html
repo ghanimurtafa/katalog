@@ -1,43 +1,29 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Katalog</title>
-
-  <!-- Favicon (🚽 emoji as per your URL) -->
-  <link rel="icon" href="https1f6bd/64.png
-
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden; /* prevent scrollbars for a full-viewport app */
-    }
-    /* A fixed viewport that fills the screen */
-    .viewport {
-      position: fixed;
-      inset: 0; /* top:0; right:0; bottom:0; left:0; shorthand */
-      width: 100%;
-      height: 100%;
-    }
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test App</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <iframe
-      src="https://katalog.streamlit.app/?embed=true"
-      title="Katalog"
-     bled -->
-      Your browser doesn’t support embedded content. 
-      <a href="https://katalogt.app/Open Katalog</a>.
-    </iframe>
+  <div class="viewport">
+     <iframe src="https://katalog.streamlit.app/?embed=true"></iframe>
   </div>
 </body>
 </html>
